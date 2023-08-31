@@ -1,0 +1,5 @@
+.popup__photo-viewer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

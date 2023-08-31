@@ -1,0 +1,35 @@
+.profile__button-edit-avatar{
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin-right: 30px;
+  border-radius: 50%;
+  padding: 0;
+  border: none;
+  background: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile__button-edit-avatar::before{
+  display: none;
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../../../images/editButtonAvatar.svg);
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.8);
+  background-position: center;
+  background-size: 26px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.profile__button-edit-avatar:hover::before{
+  display: block;
+}
+

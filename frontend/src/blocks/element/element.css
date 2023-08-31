@@ -1,0 +1,9 @@
+.element {
+  position: relative;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 361px;
+}
