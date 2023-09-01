@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:3000"; //заменить на доменное имя бэка
+export const BASE_URL = "https://api.mestokaverina.nomoredomainsicu.ru"; //заменить на доменное имя бэка
 
 function handleError(response) {
   if (!response.ok) {
